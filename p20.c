@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@@ -1,4 +1,155 @@
+>>>>>>> a4d00570e66505e51a1cd0cf03ebe3b8ad8f27ce
 //Program to print amount of money in words
 
 #include<stdio.h>
