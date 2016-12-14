@@ -29,15 +29,16 @@ int diff(struct date dt1,struct date dt2)
     for (int i=0; i<dt2.m - 1; i++)
         n2 += monthdays[i];
     n2 += count(dt2);
+    printf("%ld %ld",n1,n2);
     return (n2 - n1);
 }
 
 int main()
 {  int m1,m2,d1,d2,y1,y2;
    struct date date1 ,date2;
-    printf("Enter fist date(dd--mm-yyyy)     ->");
+    printf("Enter fist date(dd-mm-yyyy)     ->");
     scanf("%d-%d-%d",&d1,&m1,&y1);
-    printf("\nEnter second date(dd--mm-yyyy)   ->");
+    printf("\nEnter second date(dd-mm-yyyy)   ->");
     scanf("%d-%d-%d",&d1,&m2,&y2);
     date1.d=d1;
     date1.m=m1;
