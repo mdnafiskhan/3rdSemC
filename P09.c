@@ -29,7 +29,6 @@ int diff(struct date dt1,struct date dt2)
     for (int i=0; i<dt2.m - 1; i++)
         n2 += monthdays[i];
     n2 += count(dt2);
-    printf("%ld %ld",n1,n2);
     return (n2 - n1);
 }
 
